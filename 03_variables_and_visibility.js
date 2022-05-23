@@ -19,24 +19,3 @@ console.log(a * b);
 greeting = 'Hello ';
 theName = 'Makers';
 console.log(greeting + theName); // <- () were missing
-
-// creating function myFunction
-const myFunction = () => {
-  console.log(`Hello`);
-}
-myFunction();
-
-// creating function hello with 1 argument
-const hello = (name) => {
-  return `Hello ` + name;
-}
-hello(`Slava`);
-
-// creating function sayHello with ${name}
-const sayHello = (name) => {
-  return `Hello ${name}`;
-}
-sayHello('Slava');
-
-module.exports = sayHello; // <- to be able to call function outside file
-// const sayHello = require('./03_variables_and_visibility.js') <- where you call it
