@@ -1,7 +1,6 @@
 {
   "name": "first_week_js",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,18 @@
   },
   "dependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amfibiya17/first_week_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amfibiya17/first_week_js/issues"
+  },
+  "homepage": "https://github.com/amfibiya17/first_week_js#readme",
+  "keywords": [],
+  "description": ""
 }
