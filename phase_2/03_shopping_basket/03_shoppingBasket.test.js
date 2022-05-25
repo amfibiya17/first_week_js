@@ -1,4 +1,4 @@
-const ShoppingBasket = require('../lib/phase_2/03_shoppingBasket.js');
+const ShoppingBasket = require('./03_shoppingBasket');
 
 describe('ShoppingBasket', () => {
   

@@ -1,4 +1,4 @@
-const Candy = require('../lib/phase_2/03_candy.js');
+const Candy = require('./03_candy');
 
 describe('Candy', () => {
 

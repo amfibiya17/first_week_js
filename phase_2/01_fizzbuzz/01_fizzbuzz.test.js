@@ -1,4 +1,4 @@
-const fizzBuzz = require('../lib/phase_2/01_fizzbuzz.js');
+const fizzBuzz = require('./01_fizzbuzz');
 
 describe('fizzBuzz', () => {
   it('returns Fizz', () => {

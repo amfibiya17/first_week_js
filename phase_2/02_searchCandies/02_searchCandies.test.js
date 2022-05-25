@@ -1,4 +1,4 @@
-const searchCandies = require('../lib/phase_2/02_searchCandies.js');
+const searchCandies = require('./02_searchCandies');
 
 // Use the toEqual() Jest matcher
 

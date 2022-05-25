@@ -1,4 +1,4 @@
-const { add, multiply } = require('../lib/phase_2/01_testing');
+const { add, multiply } = require('./01_testing');
 
 describe('add', () => {
   it('adds 2 and 3', () => {
