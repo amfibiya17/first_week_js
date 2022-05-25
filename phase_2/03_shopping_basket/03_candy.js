@@ -1,5 +1,3 @@
-// 03_shopping_basket
-
 const candies = [
   { name: 'Aero', price: 1.99 },
   { name: 'Skitties', price: 2.99 },
@@ -22,10 +20,5 @@ class Candy {
     return this.price;
   }
 }
-
-// const candy = new Candy('Mars', 4.99);
-
-// console.log(candy.getName());
-// console.log(candy.getPrice());
 
 module.exports = Candy;

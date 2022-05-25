@@ -2,7 +2,7 @@ const ShoppingBasket = require('./03_shoppingBasket');
 
 describe('ShoppingBasket', () => {
   
-  let doubleAero = { getName: 'Aero', getPrice: 1.99 };
+  let doubleAero = { getName: () => 'Aero', getPrice: () => 1.99 };
 
   describe('getTotalPrice', () => {
     it('returns 0 when there is nothing in products basket', () => {
