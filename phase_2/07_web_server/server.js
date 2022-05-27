@@ -5,7 +5,7 @@ const port = 3000;
 let counter = 0;
 
 app.get('/', (req, res) => {
-  res.send('Hello, express! My name is Slava!')
+  res.send(`${counter}`)
 });
 
 app.post('/counter', (req, res) => {
